@@ -1,0 +1,13 @@
+Firebase Realtime database schema
+=================================
+
+<DB_NAME>
+| - iot
+| | - descriptions
+| | | - <APPLIANCE_NAME>
+| | | | - full_description: ""
+| | | | - visible_name: ""
+| | - pinout
+| | | - <APPLIANCE_NAME>: <PIN>
+| | - states
+| | | - <APPLIANCE_NAME>: <BOOLEAN>
